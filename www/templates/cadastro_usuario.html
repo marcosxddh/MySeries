@@ -1,0 +1,29 @@
+<ion-view title="2">
+    <ion-content overflow-scroll="true" padding="true" class="text-center" style="color: white;">
+        <img src="img/icon.png">
+        <h2 style="color: white;">Cadastro de Usuário</h2>
+        <form class="list">
+            <label class="item item-input" name="cad_nome">
+                <input type="text" placeholder="Nome de usuário">
+            </label>
+            <label class="item item-input" name="cad_email">
+                <input type="email" placeholder="E-mail">
+            </label>
+            <div>
+                <p class="text-left" hidden>*e-mail já cadastrado</p>
+            </div>
+            <label class="item item-input" name="cad_senha">
+                <input type="password" placeholder="Informe uma senha">
+            </label>
+            <label class="item item-select" name="cad_sexo">
+                <div class="input-label">Sexo</div>
+                <select placeholder="Informe uma senha">
+                    <option value="m">-- Selecione --</option>
+                    <option value="m">Masculino</option>
+                    <option value="f">Feminino</option>
+                </select>
+            </label>
+            <a href="#/status_cadastro" class="button button-balanced button-block button-large">Confirmar Cadastro</a>
+        </form>
+    </ion-content>
+</ion-view>
