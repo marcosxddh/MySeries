@@ -1,8 +1,21 @@
-<ion-view title="1" hide-header="true">
-    <ion-content overflow-scroll="true" padding="true" scroll="false" class="text-center">
-        <img src="img/icon.png">
-        <h2 style="color: white;">Seja Bem Vindo(a)!</h2>
-        <a href="#/cadastro_usuario" class="button button-dark button-block button-large">Cadastrar-se</a>
-        <a href="#/login" class="button button-energized button-block button-large">Entrar na minha conta</a>
+<ion-view hide-nav-bar="true" title="Bem Vindo">
+    <ion-content has-header="false" padding="true" class="text-center">
+        <img class="app-icon" src="img/icon.png">
+        <div class="col col-80 col-offset-10 text-left">
+            <p class="welcome-p-bold">Seja</p>
+            <p class="welcome-p">Bem Vindo(a)!</p>
+            <a href="#/cadastro_usuario" class="button app-button-cad">Cadastrar-se</a>
+            <a href="#/login" class="button app-button-enter">Entrar na minha conta</a>
+            <div class="list">
+                <a class="item item-avatar app-button-facebook">
+                    <i class="icon ion-social-facebook"></i>
+                    <p style="color: white;">Login/Cadastro<br>com Facebook</p>
+                </a>
+                <a class="item item-avatar app-button-twitter">
+                    <i class="icon ion-social-twitter"></i>
+                    <p style="color: white;">Login/Cadastro<br>com Twitter</p>
+                </a>
+            </div>
+        </div>
     </ion-content>
 </ion-view>

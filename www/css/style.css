@@ -1,5 +1,82 @@
 /* Empty. Add your own CSS if you like */
 
 .background, .background .pane {
-    background-color: #513174;
+    background-image: url('../img/bg.png');
+}
+
+.app-icon {
+    padding-top: 20px;
+}
+
+.welcome-p-bold {
+    font-size: 25px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.welcome-p {
+    font-size: 35px;
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.app-button-cad {
+    width: 100%;
+    border-radius: 10px;
+    border-color: #261636;
+    background: #261636;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+}
+
+.app-button-enter {
+    width: 100%;
+    border-radius: 10px;
+    border-color: #FFC926;
+    background: #FFC926;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+}
+
+.app-button-facebook {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #3B5998;
+    background: #3B5998;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
+}
+
+.item-avatar i:first-child, .item-avatar .item-img {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+    font-size: 44px;
+    max-width: 40px;
+    max-height: 40px;
+    width: 100%;
+    border-radius: 4px; 
+    color: white;
+}
+
+.app-button-twitter {
+    text-align: center;
+    width: 100%;
+    border-radius: 10px;
+    border-color: #009EDB;
+    background: #009EDB;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans';
+    margin-bottom: 10px;
 }

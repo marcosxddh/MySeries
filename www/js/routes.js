@@ -26,8 +26,14 @@ angular.module('app.routes', [])
       templateUrl: 'templates/login.html',
       controller: 'loginCtrl'
     })
+
+    
         
-      
+    .state('cadastro_series_init', {
+      url: '/cadastro_series_init',
+      templateUrl: 'templates/cadastro_series_init.html',
+      controller: 'cadastro_series_initCtrl'
+    })
     
       
         
